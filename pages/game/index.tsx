@@ -97,7 +97,7 @@ const GamePage = (): JSX.Element => {
 							Игра идет. Удачи обеим сторонам! Да победит сильнейший!
 						</p>
 						
-						{counter != 0 ? (
+						{counter === 0 ? (
 							<div>
 								<p className='font-semibold text-xl mt-2'> 
 									Игра окончена. Спасибо!
